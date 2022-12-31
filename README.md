@@ -13,4 +13,4 @@
 
 ## 3.目录结构
 `./origin`是原项目python2的改版（将不合时宜的print和xrange函数替换）
-`./ssrc`
+`./src`是本项目的源代码
