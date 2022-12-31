@@ -1,6 +1,8 @@
-loop:
+@echo off
+
+:loop
 call:update
-sleep 5
+timeout /nobreak /t 5
 goto loop
 pause
 :init_rpo
