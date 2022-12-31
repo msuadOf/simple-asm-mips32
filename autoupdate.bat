@@ -1,4 +1,7 @@
+loop:
 call:update
+sleep 5
+goto loop
 pause
 :init_rpo
 git add ./*
