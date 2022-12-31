@@ -7,4 +7,4 @@
 
 此bug已修复
 
-## 2.shi'yong
+## 2.适用pin'tai
