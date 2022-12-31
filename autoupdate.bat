@@ -2,7 +2,7 @@
 
 :loop
 call:update
-timeout /nobreak /t 5
+timeout /nobreak /t 1
 goto loop
 pause
 :init_rpo
