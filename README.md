@@ -12,4 +12,5 @@
 打算给我搓的mips32（单周期）用的，那么自然而然就会想到定制化啦（指狂砍指令集）
 
 ## 3.目录结构
-`./origin`是原项目python2的改版（将不合时宜的print和xrange）
+`./origin`是原项目python2的改版（将不合时宜的print和xrange函数替换）
+`./ssrc`
