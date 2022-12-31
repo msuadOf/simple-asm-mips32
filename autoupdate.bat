@@ -1,9 +1,17 @@
-D:\Program\git\bin\git.exe add ./*
-D:\Program\git\bin\git.exe  commit -m "first commit"  
-D:\Program\git\bin\git.exe branch -M master  
-D:\Program\git\bin\git.exe remote add origin git@github.com:msuadOf/simple-asm-mips32.git
-D:\Program\git\bin\git.exe  push -u origin master 
+call:update
+pause
+:init_rpo
+git add ./*
+git commit -m "first commit"  
+git branch -M master  
+git remote add origin git@github.com:msuadOf/simple-asm-mips32.git
+git push -u origin master 
+goto:eof
 
+:update
+git add ./*
 set d=%date:~0,10%
 set t=%time:~0,8%
-echo %d% %t%
+git commit -m "autoupdate: %d% %t%"
+git push
+goto:eof
